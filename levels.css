@@ -1,0 +1,151 @@
+html, body {
+  margin: 0px;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(52, 86, 139);
+  font-family: arial;
+  color: white;
+}
+
+#outerTitle {
+  position: relative;
+  width: 100%;
+  height: 15%;
+  float: left;
+}
+
+#innerTitle {
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -100%);
+  font-size: 3vw;
+  text-align: center;
+}
+
+#outerBody {
+  width: 100%;
+  height: 80%;
+  float: left;
+}
+
+#outerBoard {
+  width: 55%;
+  height: 100%;
+  float: left;
+}
+
+#resizeBoard {
+  position: relative;
+  height: 0;
+  width: 80%;
+  padding-bottom: 80%;
+}
+
+#innerBoard {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 90%;
+  height: 90%;
+  transform: translate(-50%, -50%);
+  border: 5px solid black;
+  border-collapse: collapse;
+}
+
+#outerExtra {
+  width: 25%;
+  height: 100%;
+  float: left;
+}
+
+#extraTitle {
+  width: 100%;
+  height: 15%;
+  float: left;
+}
+
+#outerToggle {
+  width: 100%;
+  height: 85%;
+  float: left;
+}
+
+#resizeToggle {
+  position: relative;
+  height: 0;
+  width: 85%;
+  padding-bottom: 85%;
+}
+
+#innerToggle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 90%;
+  height: 90%;
+  transform: translate(-50%, -50%);
+  border: 5px solid black;
+  border-collapse: collapse;
+}
+
+#innerMoves {
+  width: 85%;
+  height: 10%;
+  float: left;
+  font-size: 1.25vw;
+  text-align: center;
+}
+
+#outerButton {
+  position: relative;
+  width: 25%;
+  height: 100%;
+  float: right;
+}
+
+#innerButton {
+  position: absolute;
+  left: 50%;
+  font-size: 2vw;
+  padding: 3px;
+  border: 3px solid rgb(50, 50, 50);
+  background-color: white;
+  color: rgb(52, 86, 139);
+  font-size: 2vw;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+
+
+#outerBottom {
+  width: 100%;
+  height: 5%;
+  float: left;
+}
+
+#outerMessage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: none;
+}
+
+#innerMessage {
+  position: absolute;
+  top: 50%;
+  font-size: 5vw;
+  transform: translate(0%, -50%);
+  text-align: center;
+  display: none;
+}
+
+.sideMargin {
+  width: 10%;
+  height: 100%;
+  float: left;
+}
